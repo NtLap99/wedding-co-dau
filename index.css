@@ -1057,13 +1057,13 @@ body.bride-variant .opening__deco--bl { border-bottom-color: rgba(157,16,36,.7);
 body.bride-variant .opening__date-block { border-color: rgba(157,16,36,.62); }
 
 body.bride-variant .calendar {
-  right: 24px;
+  right: 28px;
   bottom: 34px;
-  left: 24px;
-  padding: 27px 24px 24px;
+  left: 28px;
+  padding: 24px 20px 20px;
   border: 1px solid rgba(255,255,255,.58);
   border-radius: 0;
-  background: rgba(55,5,16,.36);
+  background: rgba(55,5,16,.28);
   backdrop-filter: blur(7px);
   box-shadow: 0 18px 38px rgba(20,0,6,.28);
   color: #fff;
@@ -1071,9 +1071,9 @@ body.bride-variant .calendar {
 body.bride-variant .calendar::before { display: none; }
 body.bride-variant .calendar__week,
 body.bride-variant .calendar__days { position: relative; z-index: 1; }
-body.bride-variant .calendar__week { margin-bottom: 12px; }
-body.bride-variant .calendar__week b { padding-bottom: 14px; border-bottom-color: rgba(255,255,255,.42); color: #fff; font-size: 13px; }
-body.bride-variant .calendar__days i { height: 52px; color: #fff; font-size: 15px; }
+body.bride-variant .calendar__week { margin-bottom: 10px; }
+body.bride-variant .calendar__week b { padding-bottom: 12px; border-bottom-color: rgba(255,255,255,.42); color: #fff; font-size: 12px; }
+body.bride-variant .calendar__days i { height: 47px; color: #fff; font-size: 14px; }
 body.bride-variant .calendar__heart { z-index: 1; color: white !important; font-weight: 700; }
 body.bride-variant .calendar__heart::before { z-index: -1; width: 40px; height: 36px; content: "♥"; color: #e5394f; background: transparent; box-shadow: none; font-size: 40px; line-height: 36px; }
 
