@@ -303,7 +303,7 @@ body.bride-variant .families__mark { background: transparent; }
   width: min(100%, 410px);
   margin: 0 auto 22px;
   padding: 0;
-  border: 0;
+  border: 1px solid rgba(255,255,255,.45);
   border-radius: 0;
   background: transparent;
 }
@@ -930,15 +930,15 @@ body.bride-variant {
 body.bride-variant .botanical { stroke: #c4162c; opacity: .55; }
 body.bride-variant .families__mark img,
 body.bride-variant .miu-gift-mark img {
-  filter: brightness(0) saturate(100%) invert(15%) sepia(86%) saturate(3444%) hue-rotate(342deg) brightness(82%) contrast(102%) drop-shadow(0 4px 8px rgba(157,16,36,.2));
+  filter: brightness(0) saturate(100%) invert(15%) sepia(86%) saturate(3444%) hue-rotate(342deg) brightness(68%) contrast(108%) drop-shadow(0 4px 8px rgba(157,16,36,.24));
 }
 body.bride-variant .event-card {
   border-color: rgba(174,135,80,.38);
-  background: radial-gradient(circle at 50% 0%, rgba(248,213,218,.42), transparent 38%), linear-gradient(165deg, rgba(255,255,255,.98), rgba(255,247,248,.94));
+  background: radial-gradient(circle at 50% 0%, rgba(248,213,218,.3), transparent 38%), linear-gradient(165deg, rgba(255,255,255,.98), rgba(255,251,251,.96));
   box-shadow: 0 14px 38px rgba(117,32,43,.09);
 }
 body.bride-variant .event-card--alt {
-  background: radial-gradient(circle at 50% 0%, rgba(248,213,218,.58), transparent 38%), linear-gradient(165deg, rgba(255,255,255,.98), rgba(255,243,245,.96));
+  background: radial-gradient(circle at 50% 0%, rgba(248,213,218,.38), transparent 38%), linear-gradient(165deg, rgba(255,255,255,.98), rgba(255,248,249,.96));
 }
 body.bride-variant .event-card::before { border-color: rgba(174,135,80,.19); }
 body.bride-variant .event-card::after { background: linear-gradient(90deg, transparent, rgba(174,135,80,.68), transparent); }
@@ -1009,9 +1009,9 @@ body.bride-variant .wishes__toggle {
 }
 body.bride-variant .timeline__ornament i { color: #e5394f; }
 body.bride-variant .date-scene__overlay { background: linear-gradient(180deg, rgba(92,7,22,.2), rgba(62,4,15,.72)); }
-body.bride-variant .calendar { border-color: rgba(255,205,211,.9); background: rgba(255,248,249,.92); color: #8b0e1d; box-shadow: 0 12px 28px rgba(75,0,14,.24); }
-body.bride-variant .calendar__week b { color: #8b0e1d; border-color: rgba(196,22,44,.25); }
-body.bride-variant .calendar__days i { color: #8b0e1d; }
+body.bride-variant .calendar { border-color: rgba(255,255,255,.45); background: rgba(92,7,22,.46); color: #fff; box-shadow: 0 12px 28px rgba(55,3,14,.28); }
+body.bride-variant .calendar__week b { color: #fff; border-color: rgba(255,255,255,.25); }
+body.bride-variant .calendar__days i { color: #fff; }
 body.bride-variant .calendar__heart { color: #fff; }
 body.bride-variant .calendar__heart::before { color: #e5394f; }
 body.bride-variant .event-card__schedule,
@@ -1060,19 +1060,20 @@ body.bride-variant .calendar {
   right: 24px;
   bottom: 34px;
   left: 24px;
-  padding: 23px 17px 19px;
-  border: 1px solid rgba(157,16,36,.28);
-  border-radius: 24px;
-  background: rgba(255,250,250,.94);
-  box-shadow: 0 18px 38px rgba(55,3,14,.28), inset 0 0 0 5px rgba(255,255,255,.68);
-  color: #8f1f31;
+  padding: 27px 24px 24px;
+  border: 1px solid rgba(255,255,255,.58);
+  border-radius: 0;
+  background: rgba(55,5,16,.36);
+  backdrop-filter: blur(7px);
+  box-shadow: 0 18px 38px rgba(20,0,6,.28);
+  color: #fff;
 }
-body.bride-variant .calendar::before { position: absolute; inset: 8px; content: ""; border: 1px dashed rgba(157,16,36,.22); border-radius: 18px; pointer-events: none; }
+body.bride-variant .calendar::before { display: none; }
 body.bride-variant .calendar__week,
 body.bride-variant .calendar__days { position: relative; z-index: 1; }
-body.bride-variant .calendar__week { margin-bottom: 7px; }
-body.bride-variant .calendar__week b { padding-bottom: 10px; border-bottom-color: rgba(157,16,36,.2); color: #8b0e1d; font-size: 10px; }
-body.bride-variant .calendar__days i { height: 43px; color: #6f2632; font-size: 13px; }
+body.bride-variant .calendar__week { margin-bottom: 12px; }
+body.bride-variant .calendar__week b { padding-bottom: 14px; border-bottom-color: rgba(255,255,255,.42); color: #fff; font-size: 13px; }
+body.bride-variant .calendar__days i { height: 52px; color: #fff; font-size: 15px; }
 body.bride-variant .calendar__heart { z-index: 1; color: white !important; font-weight: 700; }
 body.bride-variant .calendar__heart::before { z-index: -1; width: 40px; height: 36px; content: "♥"; color: #e5394f; background: transparent; box-shadow: none; font-size: 40px; line-height: 36px; }
 
