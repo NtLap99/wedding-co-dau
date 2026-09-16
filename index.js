@@ -19,7 +19,7 @@ const MIU_PHOTOS = [
   "https://res.cloudinary.com/vltl1tcn/image/upload/v1787576313/MSO00248.jpg",
   "https://res.cloudinary.com/vltl1tcn/image/upload/v1787576305/MSO09786.jpg",
   "https://res.cloudinary.com/vltl1tcn/image/upload/v1787576305/MSO00142.jpg",
-  "https://res.cloudinary.com/vltl1tcn/image/upload/v1787576342/MSO09519.jpg",
+  "https://res.cloudinary.com/vltl1tcn/image/upload/v1789569451/MSO09519-8-10MB.jpg",
 ];
 
 const $ = (selector, context = document) => context.querySelector(selector);
@@ -109,7 +109,7 @@ function setupBrideVariant() {
     if (map) map.href = brideMap;
   };
 
-  if (cards[0]) setCard(cards[0], 'Lễ Gia Tiên', '07:30', 'Thứ Ba', '21', 'Tư Gia Nhà Gái', '(Nhằm ngày 12 tháng 09 năm Bính Ngọ)');
+  if (cards[0]) setCard(cards[0], 'Lễ Vu Quy', '07:30', 'Thứ Ba', '21', 'Tư Gia Nhà Gái', '(Nhằm ngày 12 tháng 09 năm Bính Ngọ)');
   if (cards[1]) setCard(cards[1], 'Tiệc Cưới', '11:00', 'Thứ Ba', '20', 'Tư Gia Nhà Gái', '(Nhằm ngày 11 tháng 09 năm Bính Ngọ)');
 
   const calendarDays = $$('.calendar__days i');
